@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopStyle - Boutique en ligne</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h2 class="logo">ShopStyle</h2>
+        <a href="#accueil">Accueil</a>
+        <a href="#produits">produits</a>
+        <a href="#categories">categories</a>
+        <a href="commande">commande</a>
+
+       
+    </nav>
+
+    <!-- Accueil -->
+    <header id="accueil">
+        <h1>bienvenue chez shopstyle</h1>
+        <p>decouvrez nos meilleurs produits aux meilleurs prix</p>
+        <a class="ff" href="#produits">decouvrir les produits</a>
+       
+       
+    </header>
+
+    <!-- Produits -->
+    <section id="produits">
+        <h2 class="titre">Nos produits</h2>
+        
+        <div>
+            <img src="chaussures.jpg" alt="">
+            <p>chaussures sport</p>
+            <p class="p">prix:120dt</p>
+            <a class="ch" href="#commande">commande</a> 
+        </div>
+        <div>
+            <img src="sac.jpg"alt>
+            <p>sac a main</p>
+            <p class="p">prix:85dt</p>
+            <a class="ch" href="#commande">commande</a> 
+        </div>
+        <div>
+            <img src="montre.jpg" alt="">
+            <p>montre classique</p>
+            <p class="p">prix:150dt</p>
+            <a class="ch" href="#commande">commande</a>
+        </div>
+       
+                    
+
+               
+
+        
+    </section>
+
+    <!-- Catégories -->
+    <section id="categories">
+        <h2 class="titre">Nos catégories</h2>
+        <div class="div2">
+        <ul>
+            <li>vetements</li>
+             <li>chaussures</li>
+              <li>sacs</li>
+               <li>accessoire</li>
+                <li>montre</li>
+        </ul>
+    </div>
+        
+
+        
+    </section>
+
+    <!-- Tableau -->
+    <section id="tableau">
+        <h2 class="titre">Liste des prix</h2>
+        <table>
+            <tr>
+                <th>produits</th><th>categories</th><th>prix</th>
+                
+            </tr>
+            <tr>
+                <td>chaussures sport</td><td>chaussures</td><td>120dt</td>
+            </tr>
+            <tr>
+                <td>sac a main</td><td>sacs</td><td>85dt</td>
+            </tr>
+            <tr>
+                <td>montre classique</td><td>accessoire</td><td>150dt</td>
+            </tr>
+        </table>
+
+      
+    </section>
+
+    <!-- Formulaire -->
+    <section id="commande">
+        <h2 class="titre">Passer une commande</h2>
+        <form action="">
+        <label>nom complet</label><br><input type="text"><br>
+        <label>adresse e-mail</label><br><input type="text"><br>
+        <label>choisir un produits</label><br><select>
+            <option>chaussures sport</option>
+             <option>sac a main</option>
+             <option>montre</option>
+        </select><br>
+        <label>quantite</label><br><input type="text"><br>
+        <label>adresse de livraison</label><br><textarea></textarea><br>
+        
+        <input type="submit" value="confirmer la commande" id="cc">
+    </form>
+
+       
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2026 ShopStyle - Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
